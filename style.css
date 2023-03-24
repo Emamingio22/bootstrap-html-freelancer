@@ -6,13 +6,13 @@
 
 a {
    
-    margin-left: 100px;
+    margin-left: 200px;
     
 }
 
 
 .contact {
-    margin-right: 100px;
+    margin-right: 200px;
     
     
 }
@@ -30,3 +30,38 @@ img {
 .des {
     font-size: small;
 }
+
+.card-group {
+    
+    justify-content: center;
+}
+
+.container {
+    width: 50%;
+    justify-content: center;
+    
+}
+
+
+.prev {
+    border-color: deepskyblue;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+
+.site {
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+
+
+.game {
+    margin-top: 320px;
+    
+}
+
+
+
+
