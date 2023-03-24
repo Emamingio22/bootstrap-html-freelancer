@@ -11,7 +11,7 @@
   
   <body>
 
-        <header>
+        
            <nav class="navbar bg-black w-100">
                 <div class="container-fluid">
                      <a class="navbar-brand fs-6 p-6 text-info">Portfolio</a>
@@ -19,17 +19,16 @@
                   </div>
                </nav>
                       
-                   <div class="border bg-info">
+                   <div class="border bg-info text-center">
                         <br>
-                        <img src="./img/undraw_profile_pic_ic5t.svg" alt="profile">
+                        <img src="./img/undraw_profile_pic_ic5t.svg" alt="profile" class="w-5">
                         <h3 class="text-center">Pinco Pallo</h3>
                         <p class="text-center des">WEB DESIGNER</p>
                         <br>
                     
                     </div>
-             </header>
 
-                   <main>
+                    
                     <div class="container text-center">
                         <div class="row">
                             <div class="col-12">
@@ -38,9 +37,9 @@
                          </div>
 
                          <br>
-                         <div class="row">
+                         <div class="row justify-center">
                            <div class="col-4 col1">
-                            <div class="card border">
+                            <div class="card border pe-0" >
                                 <img src="./img/cabin.png" class="card-img-top" alt="cabin">
                                 <div class="card-body border">
                                   <p class="card-text text-center fw-bold">Cabin Website</p>
@@ -53,7 +52,7 @@
 
 
                            <div class="col-4">
-                            <div class="card border">
+                            <div class="card border px-0" >
                                 <img src="./img/cake.png" class="card-img-top border" alt="cake">
                                 <div class="card-body border">
                                   <p class="card-text text-center fw-bold ">Cake Website</p>
@@ -66,7 +65,7 @@
 
 
                            <div class="col-4">
-                            <div class="card border">
+                            <div class="card border ps-0">
                                 <img src="./img/circus.png" class="card-img-top" alt="circus">
                                 <div class="card-body border">
                                   <p class="card-text text-center fw-bold">Circus Website</p>
@@ -79,9 +78,9 @@
 
 
 
-                           <div class="row mt-2 ms-1">
+                           <div class="row mt-3 justify-center ms-0">
                             <div class="col-4">
-                                <div class="card border">
+                                <div class="card border" >
                                     <img src="./img/game.png" class="card-img-top" alt="game">
                                     <div class="card-body border">
                                       <p class="card-text text-center fw-bold">Game Website</p>
@@ -107,12 +106,12 @@
     
     
                                <div class="col-4">
-                                <div class="card border" >
+                                <div class="card border"  >
                                     <img src="./img/submarine.png" class="card-img-top" alt="submarine">
                                     <div class="card-body border">
                                       <p class="card-text text-center fw-bold">Submarine Website</p>
                                       <button class="bg-info text-center prev">Preview</button>
-                                      <button class="text-info text-center site">Visit site</button>
+                                       <button class="text-info text-center site" style="display: inline;">Visit site</button>
                                     </div>
                                   </div>
                                 </div>
@@ -130,40 +129,104 @@
                           </div>
                           
                           <br>
-                        </main>
 
-                        <footer>
+
+
+                          
+
+                          
+                          
+
+                          <footer class="border bg-info mt-5">
+
+                            
+
                             <div class="container">
-                                <div class="row">
-                                    <div class="col-6">
-                            <form>
-                                <label for="fname">First name:</label><br>
-                                <input type="text" id="fname" name="fname"><br>
-                                <label for="lname">Last name:</label><br>
-                                <input type="text" id="lname" name="lname">
-                            </form>
-                                    </div>
 
+                                <div class="row mt-2 bg-info">
+                                     <h2 class="fw-bold text-center mt-5">WANT AN OFFER?</h2>
+                                    <div class="col-6">
+                                        <form>
+                                            <div class="mt-2">
+                                              <label for="exampleInputEmail1" class="form-label">First name</label>
+                                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                              
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                
+                                              </div>
+                                              <p class="mt-0">Type of work</p>
+                                              <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select the type of work</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                              </select>
+                                             
+                                            
+                                          </form>
+                                    </div>
 
 
 
                                     <div class="col-6">
                                         <form>
-                                            <label for="fname">First name:</label><br>
-                                            <input type="text" id="fname" name="fname"><br>
-                                            <label for="lname">Last name:</label><br>
-                                            <input type="text" id="lname" name="lname">
-                                        </form>
-                                                </div>
+                                            <div class="mt-2">
+                                              <label for="exampleInputEmail1" class="form-label">Last name</label>
+                                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                              
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Hours requestd</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                
+                                              </div>
+                                              <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Discount Code</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                
+                                              </div>
+                                            
+                                            
+                                          </form> 
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="mb-5">
+                                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                                
+                                              </div>
 
 
+    
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <button type="button" class="btn btn-warning">Send</button>
 
+                                            </div>
 
+                                        </div>
+    
+
+                                    
+
+                                    </div>
 
 
                                 </div>
-                            </div>
-                        </footer>
+                              
+                                    </div>
+
+                                
+                                
+
+                            
+                            
+                          </footer>
                           
                           
                 
