@@ -17,14 +17,8 @@ a {
     
 }
 
-img {
-    width: 370px;
-    height: 370px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
+
+
 
 
 .des {
@@ -57,10 +51,12 @@ img {
 
 
 
-.game {
-    margin-top: 320px;
-    
+button {
+    justify-content: center;
 }
+
+
+
 
 
 
